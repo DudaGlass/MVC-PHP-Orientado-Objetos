@@ -32,6 +32,21 @@
             font-family: "Montserrat", sans-serif;
         }
 
+        #main {
+            margin-left: 120px;
+        }
+
+        @media (max-width: 700px) {
+            .w3-sidebar {
+                width: 100%;
+                position: relative;
+            }
+
+            #main {
+                margin-left: 0;
+            }
+        }
+
     </style>
 
 </head>
@@ -320,11 +335,6 @@
 </body>
 
 </html>
-
-
-
-<!-- EXPERIÊNCIA PROFISSIONAL -->
-<section id="eProfissional">
 
     <div class="w3-padding-64 w3-content">
 
